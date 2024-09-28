@@ -23,7 +23,7 @@ public class TestJpaApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("Hola Spring!!!");
 		System.out.println("Hola Andyng!!!");
-		System.out.println("*********************");
+		System.out.println("**********************");
 		System.out.println("Usando JPA");
 
 		for (Persona p : personaService.getAllPersonas()) {
